@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web-Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+<script src="https://kit.fontawesome.com/36b21b4e71.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="header">
+         <nav>
+            <a href="index.html"><img src="images/logo-img.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">Stream</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+               
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+         </nav>
+         <div class="text-box">
+            <h1>World's Biggest Music Streaming Platform</h1>
+            <p>Music Streaming and Downloading NO.1 Platform in the World.
+            </p>
+            <a href="" class="hero-btn">Vist Us to know more</a>
+         </div>
+    </section>
+
+<section class="course">
+    <!------course------->
+    <h1>Songs We Offer</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, sit.</p>
+
+    <div class="row">
+        <div class="course-col">
+            <h3>POP</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                Voluptate nam accusantium est neque tempore quasi maxime libero sint nobis veniam. T
+                empore tenetur minima, 
+                cumque deserunt commodi maxime ducimus ab delectus?</p>
+
+        </div>
+        <div class="course-col">
+            <h3>Hip Hop</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                Voluptate nam accusantium est neque tempore quasi maxime libero sint nobis veniam. T
+                empore tenetur minima, 
+                cumque deserunt commodi maxime ducimus ab delectus?</p>
+
+        </div>
+
+        <div class="course-col">
+            <h3>EDM</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                Voluptate nam accusantium est neque tempore quasi maxime libero sint nobis veniam. T
+                empore tenetur minima, 
+                cumque deserunt commodi maxime ducimus ab delectus?</p>
+
+        </div>
+
+    </div>
+
+
+</section>
+
+<!--------------platform------------>
+
+<section class="platform">
+    <h1>Our Global Platform</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, eveniet?</p>
+
+    <div class="row">
+        <div class="platform-col">
+            <img src="images/music.jpeg">
+            <div class="layer">
+                <h3>Music</h3>
+            </div>
+        </div>
+        <div class="platform-col">
+            <img src="images/music.jpeg">
+            <div class="layer">
+                <h3>Stream</h3>
+            </div>
+        </div>
+        <div class="platform-col">
+            <img src="images/music.jpeg">
+            <div class="layer">
+                <h3>Play</h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-------Features-------->
+
+<section class="features">
+    <h1>Our Features</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, soluta!/p>
+
+        <div class="row">
+            <div class="features-col">
+                <img src="#">
+                <h3>Word Music Library</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                     Facere vitae voluptas minus voluptatum saepe, 
+                    officiis mollitia autem soluta temporibus voluptate?</p>
+            </div>
+            <div class="features-col">
+                <img src="#">
+                <h3>All Songs In One Place</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                     Facere vitae voluptas minus voluptatum saepe, 
+                    officiis mollitia autem soluta temporibus voluptate?</p>
+            </div>
+            <div class="features-col">
+                <img src="#">
+                <h3>Download Any Song</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                     Facere vitae voluptas minus voluptatum saepe, 
+                    officiis mollitia autem soluta temporibus voluptate?</p>
+            </div>
+        </div>
+</section>
+
+<!-------feedbacksS-------->
+
+<section class="feedbacks">
+    <h1>What Our Users Say</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, soluta!/p>
+
+        <div class="row">
+            <div class="feedbacks-col">
+                <img src="#">
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Ab magni expedita assumenda reprehenderit in animi quisquam,
+                         quae reiciendis cumque numquam ipsum ut officiis quod illo adipisci quos atque commodi eum?</p>
+                          <h3>Lorem, ipsum.</h3>
+                        </div>
+            </div>
+            <div class="feedbacks-col">
+                <img src="#">
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Ab magni expedita assumenda reprehenderit in animi quisquam,
+                         quae reiciendis cumque numquam ipsum ut officiis quod illo adipisci quos atque commodi eum?</p>
+                          <h3>lorem ipsum</h3>
+                        </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!---------JavaScript for Toggle Menu-------->
+<script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+
+
+
+</body>
+</html>
